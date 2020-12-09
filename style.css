@@ -1,0 +1,73 @@
+
+/* sfondo principale */
+body{
+background-image:url(sfondo.jpg);
+background-position:center top;
+background-size:cover;
+background-repeat: no-repeat;
+margin-top: 1%;
+}
+
+/* titolo e logo */
+header{
+text-align: center;
+color: rgb(32, 255, 28);
+}
+
+.titolo{
+font-size: 30px;
+margin: 3px;
+}
+
+.logo{
+width: 200px;
+}
+
+/* backgroun trasparente  */
+.contenuto {
+width: 53%;
+margin: auto;
+background-color:rgba(0, 0, 0, 0.4);
+border-radius: 20px;
+padding: 5%;
+}
+
+/* input backgroun */
+.input{
+background-color: rgb(32, 255, 28);
+padding: 1%;
+}
+
+/* testo modifiche estetiche */
+div > span {
+color: white;
+font-size: 20px;
+}
+
+section div{
+color: lightgrey;
+font-size: 13px;
+}
+
+/* stato batterie colore */
+.batteria1{
+background-color: rgb(255, 181, 75);
+color: rgb(255, 181, 75);
+width: 35%;
+border-radius: 5px;
+bac
+}
+
+.batteria2{
+background-color: rgb(44, 206, 0);
+color:rgb(44, 206, 0);
+width: 58%;
+border-radius: 5px;
+}
+
+.batteria3{
+background-color: rgb(255, 76, 76);
+color: rgb(255, 76, 76);
+width: 13%;
+border-radius: 5px;
+}
